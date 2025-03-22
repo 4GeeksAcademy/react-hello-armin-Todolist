@@ -8,23 +8,22 @@ const Home = () => {
 	const [name, resultName] = useState()
 	console.log(name)
 	return (
-		<div className="text-center d-flex justify-content-center align-items-center">
-			<div className=" d-flex flex-column gap-2 bg-danger-subtle justify-content-center align-items-center" style={{ maxWith: "100%" }}>
-				<h4 className="text-success">{name}</h4>
-				<input type="text" className="form-control"
-					onChange={(event) => {
-						resultName(event.target.value)
-					}}
-					value={name}
-				/>
 
+		<div className="card bg-secondary-subtle" style={{ width: "18rem;" }}>
+			<div className="card-body d-flex justify-content-center align-items-center">
+				<h1 className="card-title">Todos</h1>
 			</div>
-			<div className="card" style={{ width: "18rem" }}>
-				<ul className="list-group list-group-flush">
-					<li className="list-group-item">An item</li>
-					<li className="list-group-item">A second item</li>
-					<li className="list-group-item">A third item</li>
-				</ul>
+			<div className="text-center d-flex justify-content-center align-items-center">
+				<div className=" d-flex flex-column gap-2 bg-danger-subtle justify-content-center align-items-center" style={{ maxWith: "100%" }}>
+					<h4 className="text-success">{name}</h4>
+					<input type="text" className="form-control"
+						onChange={(event) => {
+							resultName(event.target.value)
+						}}
+						value={name}
+					/>
+
+				</div>
 			</div>
 
 		</div>
