@@ -18,6 +18,15 @@ body {
     margin: 30px 500px 0px 500px;
 }
 
+.card-form{
+  margin-top: 20px;
+}
+
+.title-container{
+  font-weight: 100;
+  font-size: 100px;
+}
+
 
 .task-item {
     position: relative;
@@ -35,4 +44,20 @@ body {
     display: inline;
     color: red;
 
+  }
+  .form-control {
+    width: 80%;           /* Ocupa el 80% del ancho del contenedor */
+    max-width: 700px;     /* No excede los 600px */
+    padding: 20px;        /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 5px;   /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo suave */
+  }
+
+  input[type="text"] {
+    width: 100%;          /* Ocupa todo el ancho del formulario */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
   }
