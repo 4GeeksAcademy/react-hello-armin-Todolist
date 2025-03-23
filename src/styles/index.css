@@ -13,3 +13,26 @@ body {
     background: black;
 }
 
+.card-container{
+    height: 700px;
+    margin: 30px 500px 0px 500px;
+}
+
+
+.task-item {
+    position: relative;
+  }
+  
+  .delete-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .task-item:hover .delete-icon {
+    display: inline;
+    color: red;
+
+  }
