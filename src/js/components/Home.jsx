@@ -22,7 +22,7 @@ const Home = () => {
 	};
 
 	return (
-		<div className="card d-flex bg-secondary-subtle card-container">
+		<div className="card d-flex bg-secondary-subtle container-fluid" style={{ height: "700px", margin: "30px auto 0", width: "80%", maxWidth: "600px" }}>
 			<div className=" card-form text-center d-flex flex-column mb-3 justify-content-center align-items-center">
 				<h1 className="text-success title-container">todos</h1>
 				<div
